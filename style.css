@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 110PX;
+    background-color: #ffffff;
+    border: 1px solid rgb(209, 206, 206);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+.Login{
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(27 110 243);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    box-shadow: 1px 2px rgb(209, 206, 206);
+
+}
+.root{
+    display: flex;
+}
+.funshan{
+    border: 1px solid rgb(209, 206, 206);
+}
+.all_btn{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 10px;
+}
+.all_btn button{
+    border: none;
+    text-align: left;
+}
+
+.all_btn :hover{
+    background-color: rgb(209, 206, 206);
+}
+.tasbeeh_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.tasbeeh_box{
+    padding: 100px;
+    border-radius: 20px;
+    border: .50px solid;
+    box-shadow: 3px 3px gray;
+
+}
+.button_all{
+    
+    margin-top: 50px;
+    gap: 1px;
+}
+.button_all button{
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 80px;
+    height: 50px;
+    background-color: black;
+}
+.button_all :hover {
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+    width: 85px;
+    height: 55px;
+    background-color: black;
+}
